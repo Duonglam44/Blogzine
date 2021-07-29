@@ -1,0 +1,82 @@
+// google font rubik
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+// variables roots
+:root{
+    --link-color: #595d69;
+    --active-color: #2163e8;
+    --footer-lColor: #d0d4d9;
+}
+// 
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+section{
+    padding-top: 3rem!important;
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    width: 120rem;
+    max-width: 100%;
+}
+
+.nav-link{
+    color: var(--link-color);
+}
+
+.btn{
+    box-shadow: none;
+    &:focus{
+        box-shadow: none;
+    }
+    &:active{
+        box-shadow: none;
+    }
+}
+
+.bg-primary-soft{
+    background: rgba(33, 99, 232, 0.1) !important;
+}
+// 
+.dropdown:hover{
+    .dropdown-menu{
+        animation: translateUp .3s forwards;
+    }
+}
+// 
+
+@keyframes translateUp {
+    from {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@media screen and (min-width: 576px){
+    .container{
+        max-width: 94%; 
+    }
+}

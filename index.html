@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blogzine</title>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <!-- tiny slider css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <!-- custom style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- OFFCANVAS START -->
+    <div class="offcanvas offcanvas-end" id="offcanvas" aria-labelledby="offcanvas">
+        <div class="offcanvas-header p-4">
+            <div></div>
+            <button class="btn-close fs-3 shadow-none" type="button" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body p-5">
+            <div>
+                <img src="./assets/images/logo.svg" alt="">
+                <p class="my-4">
+                    The next-generation blog, news, and magazine theme for you to start sharing your stories today!
+                </p>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="" class="nav-link ps-0 h3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link ps-0 h3">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link ps-0 h3">Our Journal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link ps-0 h3">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="text-center bg-primary-soft rounded p-4 mt-5">
+                    <span>The Blogzine</span>
+                    <h1 class="h1 text-black my-3">Save on Premium Membership</h1>
+                    <div class="w-100 mx-auto" style="max-width: 80%;">
+                        <p>Get the insights report trusted by experts around the globe. Become a Member Today!</p>
+                    </div>
+                    <button class="btn btn-warning p-4"  style="font-size: 1.5rem; letter-spacing: 1.2px;">View pricing plans</button>
+                </div>
+                <div class="mt-5">
+                    <h2 class="h2 text-black">New York, USA (HQ)</h2>
+                    <address class="my-3">750 Sing Sing Rd, Horseheads, NY, 14845 Call: 469-537-2410 (Toll-free)</address>
+                    <a href="" class="text-reset">hello@blogzine.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OFFCANVAS END -->
+
+    <!-- START HEADER SECTION -->
+    <div class="header mb-4" id="header">
+        <div class="navbar-top d-none d-lg-block">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center my-2">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ps-0">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Forum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Buy Now!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Login/Join</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center">
+                        <div class="modeSwitch">
+                            <div class="switch"></div>
+                        </div>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link px-3 fs-2">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link px-3 fs-2">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link px-3 fs-2">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link px-3 fs-2">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link px-3 fs-2">
+                                    <i class="fab fa-vimeo-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="border-bottom border-2"></div>
+            </div>
+        </div>
+
+        <div class="navbar navbar-expand-lg header__navbar">
+            <div class="container">
+                <!-- logo -->
+                <div class="navbar-brand logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.svg" alt="" class="header__logo">
+                    </a>
+                </div>
+                <!-- end logo -->
+                <!-- menu start -->
+                <!-- button toggle -->
+                <button class="navbar-toggler shadow-none ms-auto" data-bs-toggle="collapse"
+                    data-bs-target="#navbarcollapse" aria-expanded="false">
+                    <span class="navbar-toggler-icon"
+                        style="background-image: url(./assets/images/hamburger.svg);background-position: center;background-repeat: no-repeat;background-size: cover;"></span>
+                </button>
+                <!-- menu -->
+                <div class="collapse navbar-collapse header__collapse" id="navbarcollapse">
+                    <ul class="navbar-nav mx-auto header__collapse-list">
+                        <li class="nav-item dropdown header__collapse-item">
+                            <a href="fb.com" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="homeMenu"
+                                aria-expanded="false">Home</a>
+                            <ul class="dropdown-menu py-0" aria-labelledby="#homeMenu">
+                                <li>
+                                    <a href="#" class="dropdown-item">Home Default</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Magazine classic</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Magazine</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Home Cards</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">Blog Classic</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown header__collapse-item">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="pageMenu"
+                                aria-expanded="false">Pages</a>
+                            <ul class="dropdown-menu py-0" aria-labelledby="#pageMenu">
+                                <li>
+                                    <a href="" class="dropdown-item">About</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Contact</a>
+                                </li>
+                                <li class="dropdown dropdown-end">
+                                    <a href="https://youtube.com" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Other
+                                        archive</a>
+                                    <ul class="dropdown-menu py-0">
+                                        <li>
+                                            <a href="" class="dropdown-item">Author Page</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">category page 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Category page 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item"># Tag</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Search result</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Error 404</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Sign Up</a>
+                                </li>
+                                <li class="dropdown-divider my-0"></li>
+                                <li class="dropdown dropdown-end">
+                                    <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Dropdown
+                                        Levels</a>
+                                    <ul class="dropdown-menu py-0">
+                                        <li>
+                                            <a href="" class="dropdown-item">Dropdown (end)</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Dropdown items</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Dropdown (start)</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Dropdown items</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-divider my-0"></li>
+                                <li>
+                                    <a href="" class="dropdown-item">
+                                        <i class="text-warning fas fa-volleyball-ball"></i>
+                                        Support
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">
+                                        <i class="text-danger fas fa-passport"></i>
+                                        Documentation
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown header__collapse-item">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="postMenu"
+                                aria-expanded="false">Post</a>
+                            <ul class="dropdown-menu py-0" aria-labelledby="#postMenu">
+                                <li class="dropdown dropdown-end">
+                                    <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Post
+                                        grid</a>
+                                    <ul class="dropdown-menu dropdown-end py-0">
+                                        <li>
+                                            <a href="" class="dropdown-item">Post grid</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Post grid cool</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Post grid masonry</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Post grid masonry filter</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="dropdown-item">Post overlay</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post list</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post list 2</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post card</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post overlay</a>
+                                </li>
+                                <li class="dropdown-divider my-0"></li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post single magazine</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post single classic</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post single minimal</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post single card</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item">Post single review</a>
+                                </li>
+                                <li class="dropdown-divider my-0"></li>
+                                <li>
+                                    <a href="" class="dropdown-item">Pagination style</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item header__collapse-item">
+                            <a href="#" class="nav-link">Lifestyle</a>
+                        </li>
+                        <li class="nav-item header__collapse-item">
+                            <a href="#" class="nav-link">Componets</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- menu end -->
+
+                <!-- right side start -->
+                <div class="nav align-items-center header__rightSide">
+                    <div class="d-none d-md-block nav-item">
+                        <button class="btn btn-danger header__subcribe">Subscribe!</button>
+                    </div>
+                    <div class="nav-item dropdown dropdown__menu-start dropdown--hideIcon  mx-2 px-2">
+                        <a href="#" class="dropdown-toggle header__search-btn" id="searchBar" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <div class="dropdown-menu p-2 " aria-labelledby="#searchBar">
+                            <form action="" class="input-group header__search-form">
+                                <input type="search" class="form-control border-success shadow-none"
+                                    placeholder="Search..." aria-label="search">
+                                <button class="btn btn-success">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <button class="btn fs-1 p-2 header__offcanvas-btn" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvas">
+                        <i class="fal fa-chevron-square-left"></i>
+                    </button>
+                    <!-- right side end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END HEADER SECTION -->
+    <!-- MAIN SECTION START -->
+    <main class="main" id="main">
+        <!-- trending start -->
+        <section class="py-2">
+            <div class="container">
+                <div class="d-flex align-items-center tiny-slider p-3">
+                    <div class="me-4 tiny-slider__text">
+                        <span class="badge badge-slide bg-primary p-2 px-3">trending:</span>
+                    </div>
+                    <div class="flex-grow-1 tiny-slider__slider">
+                        <div class="slider" id="slider">
+                            <div class="slider-item">
+                                <a href="">The most common business debate isn't as black and white as you might
+                                    think</a>
+                            </div>
+                            <div class="slider-item">
+                                <a href="">How the 10 worst business fails of all time could have been prevented </a>
+                            </div>
+                            <div class="slider-item">
+                                <a href="">The most common business debate isn't as black and white as you might
+                                    think</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- trending end -->
+        <!-- main news section start -->
+        <section class="pt-4 mt-3 pb-0">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <div class="card card-grid-lg card-overlay-bottom mainCard"
+                            style="background-image: url(./assets/images/01.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;">
+                            <div class="card-img-overlay d-flex align-items-center p-4 p-lg-5">
+                                <div class="w-100 mt-auto">
+                                    <a href="" class="badge bg-danger mb-3">Lifestyle</a>
+                                    <h2 class="text-white mainCard__title mb-3">
+                                        <a href="" class="text-white">Ten tell-tale signs you need to get a new
+                                            startup.</a>
+                                    </h2>
+                                    <p class="text-white mainCard__text">No visited raising gravity outward subject my
+                                        cottage Mr be. Hold do at tore in park feet near my case. </p>
+                                    <ul class="nav align-items-center nav__list">
+                                        <li class="nav-item mainCard__item">
+                                            <div class="nav-link ps-0 d-flex align-items-center ms-0 text-white">
+                                                <div class="avatar avatar-sm">
+                                                    <img src="./assets/images/avatar.jpg" alt="">
+                                                </div>
+                                                <span class="ms-3 text-reset mainCard__name">
+                                                    by
+                                                    <a href="">louis</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item text-white">
+                                            <span class="nav-link text-reset">Now 15, 2021</span>
+                                        </li>
+                                        <li class="nav-item text-white">
+                                            <span class="nav-link text-reset">5 mins read</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-5">
+                            <div class="col-lg-12">
+                                <div class="card card-grid-sm card-overlay-bottom mainCard"
+                                    style="background-image: url(./assets/images/02.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;">
+                                    <div class="card-img-overlay d-flex align-items-center p-4 p-lg-5">
+                                        <div class="w-100 mt-auto">
+                                            <a href="" class="badge bg-warning mb-3">Lifestyle</a>
+                                            <h2 class="text-white mainCard__title mb-3">
+                                                <a href="" class="text-white">Ten tell-tale signs you need to get a new
+                                                    startup.</a>
+                                            </h2>
+                                            <p class="text-white mainCard__text">No visited raising gravity outward
+                                                subject my cottage Mr be. Hold do at tore in park feet near my case.
+                                            </p>
+                                            <ul class="nav align-items-center nav__list">
+                                                <li class="nav-item mainCard__item">
+                                                    <div
+                                                        class="nav-link ps-0 d-flex align-items-center ms-0 text-white">
+                                                        <div class="avatar avatar-sm d-none">
+                                                            <img src="./assets/images/avatar.jpg" alt="">
+                                                        </div>
+                                                        <span class="ms-0 text-reset mainCard__name">
+                                                            by
+                                                            <a href="">louis</a>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item text-white mainCard__item">
+                                                    <span class="nav-link text-reset">Now 15, 2021</span>
+                                                </li>
+                                                <li class="nav-item text-white mainCard__item d-none">
+                                                    <span class="nav-link text-reset">5 mins read</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card card-grid-sm card-overlay-bottom mainCard"
+                                    style="background-image: url(./assets/images/03.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;">
+                                    <div class="card-img-overlay d-flex align-items-center p-4 p-lg-5">
+                                        <div class="w-100 mt-auto">
+                                            <a href="" class="badge bg-success mb-3">Lifestyle</a>
+                                            <h2 class="text-white mainCard__title mb-3">
+                                                <a href="" class="text-white">Ten tell-tale signs you need to get a new
+                                                    startup.</a>
+                                            </h2>
+                                            <p class="text-white mainCard__text">No visited raising gravity outward
+                                                subject my cottage Mr be. Hold do at tore in park feet near my case.
+                                            </p>
+                                            <ul class="nav align-items-center nav__list">
+                                                <li class="nav-item mainCard__item">
+                                                    <div
+                                                        class="nav-link ps-0 d-flex align-items-center ms-0 text-white">
+                                                        <div class="avatar avatar-sm d-none">
+                                                            <img src="./assets/images/avatar.jpg" alt="">
+                                                        </div>
+                                                        <span class="ms-0 text-reset mainCard__name">
+                                                            by
+                                                            <a href="">louis</a>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item text-white mainCard__item">
+                                                    <span class="nav-link text-reset">Now 15, 2021</span>
+                                                </li>
+                                                <li class="nav-item text-white mainCard__item d-none">
+                                                    <span class="nav-link text-reset">5 mins read</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card card-grid-sm card-overlay-bottom mainCard"
+                                    style="background-image: url(./assets/images/04.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;">
+                                    <div class="card-img-overlay d-flex align-items-center p-4 p-lg-5">
+                                        <div class="w-100 mt-auto">
+                                            <a href="" class="badge bg-info mb-3">Lifestyle</a>
+                                            <h2 class="text-white mainCard__title mb-3">
+                                                <a href="" class="text-white">Ten tell-tale signs you need to get a new
+                                                    startup.</a>
+                                            </h2>
+                                            <p class="text-white mainCard__text">No visited raising gravity outward
+                                                subject my cottage Mr be. Hold do at tore in park feet near my case.
+                                            </p>
+                                            <ul class="nav align-items-center nav__list">
+                                                <li class="nav-item mainCard__item">
+                                                    <div
+                                                        class="nav-link ps-0 d-flex align-items-center ms-0 text-white">
+                                                        <div class="avatar avatar-sm d-none">
+                                                            <img src="./assets/images/avatar.jpg" alt="">
+                                                        </div>
+                                                        <span class="ms-0 text-reset mainCard__name">
+                                                            by
+                                                            <a href="">louis</a>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item text-white mainCard__item">
+                                                    <span class="nav-link text-reset">Now 15, 2021</span>
+                                                </li>
+                                                <li class="nav-item text-white mainCard__item d-none">
+                                                    <span class="nav-link text-reset">5 mins read</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- main news section end -->
+        <!-- top highlights section start -->
+        <section class="pt-4 mt-5 pb 0">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-9">
+                        <div class="top__header">
+                            <h2 class="mb-2"><i class="fas fa-hourglass-start"></i> Today's top highlights</h2>
+                            <p>Latest breaking news, pictures, videos, and special reports</p>
+                        </div>
+                        <div class="row g-5">
+                            <div class="col-sm-6">
+                                <div class="card topCard border-0">
+                                    <div class="position-relative topCard__img-wrapper">
+                                        <img class="card-img" src="./assets/images/card1.jpg" alt="">
+                                        <div class="card-img-overlay d-flex align-items-center p-lg-4">
+                                            <div class="w-100 mt-auto">
+                                                <span class="badge bg-warning">technology</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-3 px-0">
+                                        <h4 class="card-title topCard__title mt-2">
+                                            <a href="">
+                                                12 worst types of business accounts you follow on Twitter
+                                            </a>
+                                        </h4>
+                                        <p class="card-text topCard__text">
+                                            He moonlights difficult engrossed it, sportsmen. Interested has all
+                                            Devonshire difficulty gay assistance joy. Unaffected at ye of compliment
+                                            alteration to
+                                        </p>
+                                        <ul class="nav align-items-center nav__list">
+                                            <li class="nav-item topCard__item">
+                                                <div class="nav-link ps-0 d-flex align-items-center ms-0 ">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="./assets/images/avatar.jpg" alt="">
+                                                    </div>
+                                                    <span class="ms-3 topCard__name">
+                                                        by
+                                                        <a href="">louis</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">Now 15, 2021</span>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">5 mins read</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card topCard border-0">
+                                    <div class="position-relative topCard__img-wrapper">
+                                        <img class="card-img" src="./assets/images/card3.jpg" alt="">
+                                        <div class="card-img-overlay d-flex align-items-center p-lg-4">
+                                            <div class="w-100 mt-auto">
+                                                <span class="badge bg-warning">technology</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-3 px-0">
+                                        <h4 class="card-title topCard__title mt-2">
+                                            <a href="">
+                                                Dirty little secrets about the business industry
+                                            </a>
+                                        </h4>
+                                        <p class="card-text topCard__text">
+                                            Place voice no arises along to. Parlors waiting so against me no. Wishing
+                                            calling is warrant settled was lucky. Express besides it present if at an
+                                            opinion visitor.
+                                        </p>
+                                        <ul class="nav align-items-center nav__list">
+                                            <li class="nav-item topCard__item">
+                                                <div class="nav-link ps-0 d-flex align-items-center ms-0 ">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="./assets/images/avater2.jpg" alt="">
+                                                    </div>
+                                                    <span class="ms-3 topCard__name">
+                                                        by
+                                                        <a href="">louis</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">Now 15, 2021</span>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">5 mins read</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card topCard border-0">
+                                    <div class="position-relative topCard__img-wrapper">
+                                        <img class="card-img" src="./assets/images/card5jpg.jpg" alt="">
+                                        <div class="card-img-overlay d-flex align-items-center p-lg-4">
+                                            <div class="w-100 mt-auto">
+                                                <span class="badge bg-warning">technology</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-3 px-0">
+                                        <h4 class="card-title topCard__title mt-2">
+                                            <a href="">
+                                                Bad habits that people in the industry need to quit
+                                            </a>
+                                        </h4>
+                                        <p class="card-text topCard__text">
+                                            For who thoroughly her boy estimating conviction. Removed demands expense
+                                            account in outward tedious do. Particular way thoroughly unaffected
+                                        </p>
+                                        <ul class="nav align-items-center nav__list">
+                                            <li class="nav-item topCard__item">
+                                                <div class="nav-link ps-0 d-flex align-items-center ms-0 ">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="./assets/images/avatar3.jpg" alt="">
+                                                    </div>
+                                                    <span class="ms-3 topCard__name">
+                                                        by
+                                                        <a href="">louis</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">Now 15, 2021</span>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">5 mins read</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card topCard border-0">
+                                    <div class="position-relative topCard__img-wrapper">
+                                        <img class="card-img" src="./assets/images/card6jpg.jpg" alt="">
+                                        <div class="card-img-overlay d-flex align-items-center p-lg-4">
+                                            <div class="w-100 mt-auto">
+                                                <span class="badge bg-warning">technology</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-3 px-0">
+                                        <h4 class="card-title topCard__title mt-2">
+                                            <a href="">
+                                                12 worst types of business accounts you follow on Twitter
+                                            </a>
+                                        </h4>
+                                        <p class="card-text topCard__text">
+                                            He moonlights difficult engrossed it, sportsmen. Interested has all
+                                            Devonshire difficulty gay assistance joy. Unaffected at ye of compliment
+                                            alteration to
+                                        </p>
+                                        <ul class="nav align-items-center nav__list">
+                                            <li class="nav-item topCard__item">
+                                                <div class="nav-link ps-0 d-flex align-items-center ms-0 ">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="./assets/images/avatar.jpg" alt="">
+                                                    </div>
+                                                    <span class="ms-3 topCard__name">
+                                                        by
+                                                        <a href="">louis</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">Now 15, 2021</span>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">5 mins read</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card topCard border-0">
+                                    <div class="position-relative topCard__img-wrapper">
+                                        <img class="card-img" src="./assets/images/card1.jpg" alt="">
+                                        <div class="card-img-overlay d-flex align-items-center p-lg-4">
+                                            <div class="w-100 mt-auto">
+                                                <span class="badge bg-warning">technology</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-3 px-0">
+                                        <h4 class="card-title topCard__title mt-2">
+                                            <a href="">
+                                                12 worst types of business accounts you follow on Twitter
+                                            </a>
+                                        </h4>
+                                        <p class="card-text topCard__text">
+                                            He moonlights difficult engrossed it, sportsmen. Interested has all
+                                            Devonshire difficulty gay assistance joy. Unaffected at ye of compliment
+                                            alteration to
+                                        </p>
+                                        <ul class="nav align-items-center nav__list">
+                                            <li class="nav-item topCard__item">
+                                                <div class="nav-link ps-0 d-flex align-items-center ms-0 ">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="./assets/images/avatar.jpg" alt="">
+                                                    </div>
+                                                    <span class="ms-3 topCard__name">
+                                                        by
+                                                        <a href="">louis</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">Now 15, 2021</span>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">5 mins read</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card topCard border-0">
+                                    <div class="position-relative topCard__img-wrapper">
+                                        <img class="card-img" src="./assets/images/cardw.jpg" alt="">
+                                        <div class="card-img-overlay d-flex align-items-center p-lg-4">
+                                            <div class="w-100 mt-auto">
+                                                <span class="badge bg-warning">technology</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-3 px-0">
+                                        <h4 class="card-title topCard__title mt-2">
+                                            <a href="">
+                                                12 worst types of business accounts you follow on Twitter
+                                            </a>
+                                        </h4>
+                                        <p class="card-text topCard__text">
+                                            He moonlights difficult engrossed it, sportsmen. Interested has all
+                                            Devonshire difficulty gay assistance joy. Unaffected at ye of compliment
+                                            alteration to
+                                        </p>
+                                        <ul class="nav align-items-center nav__list">
+                                            <li class="nav-item topCard__item">
+                                                <div class="nav-link ps-0 d-flex align-items-center ms-0 ">
+                                                    <div class="avatar avatar-sm">
+                                                        <img src="./assets/images/avatar.jpg" alt="">
+                                                    </div>
+                                                    <span class="ms-3 topCard__name">
+                                                        by
+                                                        <a href="">louis</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">Now 15, 2021</span>
+                                            </li>
+                                            <li class="nav-item topCard__item">
+                                                <span class="nav-link text-reset">5 mins read</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center mt-5">
+                                <button class="btn loadMore-btn p-3 px-5">
+                                    Load more post
+                                    <i class="fas fa-arrow-circle-down ms-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <!-- social start -->
+                        <div class="row g-3">
+                            <div class="col-4">
+
+                                <a href="#" class=" d-block text-center bg-facebook p-3 py-4 rounded">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <h4 class="my-2">1.5K</h4>
+                                    <span>Fans</span>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class=" d-block text-center bg-ins p-3 py-4 rounded">
+                                    <i class="fab fa-instagram"></i>
+                                    <h4 class="my-2">1.8M</h4>
+                                    <span>Followers</span>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class=" d-block text-center bg-ytb p-3 py-4 rounded">
+                                    <i class="fab fa-youtube-square"></i>
+                                    <h4 class="my-2">22K</h4>
+                                    <span>subs</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- social end -->
+                        <!-- trending topics start -->
+                        <div class="mt-5">
+                            <h4 class="mt-4 mb-3 h2">Trending topics</h4>
+                            <div class="text-center trendingCard mb-4 p-3 py-4" style="background-image: url(./assets/images/travel.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                <a href="" class="trendingCard__text pb-1">travel</a>
+                            </div>
+                            <div class="text-center trendingCard mb-4 p-3 py-4" style="background-image: url(./assets/images/bussiness.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                <a href="" class="trendingCard__text pb-1">bussiness</a>
+                            </div>
+                            <div class="text-center trendingCard mb-4 p-3 py-4" style="background-image: url(./assets/images/marketing.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                <a href="" class="trendingCard__text pb-1">marketing</a>
+                            </div>
+                            <div class="text-center trendingCard mb-4 p-3 py-4" style="background-image: url(./assets/images/photography.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                <a href="" class="trendingCard__text pb-1">photography</a>
+                            </div>
+                            <div class="text-center trendingCard mb-4 p-3 py-4" style="background-image: url(./assets/images/sports.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
+                                <a href="" class="trendingCard__text pb-1">sports</a>
+                            </div>
+                            <div class="text-center my-3 trendingCard__more">
+                                <a href="" class="text-decoration-underline">View all categories</a>
+                            </div>
+                        </div>
+                        <!-- trending topics end -->
+                        <!-- trending recent post start -->
+                        <div class="mt-5">
+                            <div class="row">
+                                <div class="col col-sm-6 col-lg-12">
+                                    <h4 class="mb-3 h2">Recent post</h4>
+                                    <div class="row g-3 position-relative recentCard mb-4">
+                                        <div class="col-4">
+                                            <img src="./assets/images/recent1.jpg" alt="" class="rounded">
+                                        </div>
+                                        <div class="col-8">
+                                            <h6>
+                                                <a href="#" class="recentCard__name">The pros and cons of business agency</a>
+                                            </h6>
+                                            <p class="recentCard__date mb-0">May 17,2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="row g-3 position-relative recentCard mb-4">
+                                        <div class="col-4">
+                                            <img src="./assets/images/recent2.jpg" alt="" class="rounded">
+                                        </div>
+                                        <div class="col-8">
+                                            <h6>
+                                                <a href="#" class="recentCard__name">5 reasons why you shouldn't startup</a>
+                                            </h6>
+                                            <p class="recentCard__date mb-0">May 17,2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="row g-3 position-relative recentCard mb-4">
+                                        <div class="col-4">
+                                            <img src="./assets/images/recent3.jpg" alt="" class="rounded">
+                                        </div>
+                                        <div class="col-8">
+                                            <h6>
+                                                <a href="#" class="recentCard__name">Ten questions you should answer truthfully.</a>
+                                            </h6>
+                                            <p class="recentCard__date mb-0">May 17,2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="row g-3 position-relative recentCard mb-4">
+                                        <div class="col-4">
+                                            <img src="./assets/images/recent4.jpg" alt="" class="rounded">
+                                        </div>
+                                        <div class="col-8">
+                                            <h6>
+                                                <a href="#" class="recentCard__name">Five unbelievable facts about money.</a>
+                                            </h6>
+                                            <p class="recentCard__date mb-0">May 17,2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-sm-6 col-lg-12">
+                                    <a href="" class="d-block card-img-flash">
+                                        <img src="./assets/images/adv.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- trending recent post end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- top highlights section end -->
+        <!--  -->
+        <div class="container mt-5">
+            <div class="border-bottom border-2"></div>
+        </div>
+        <!-- Sponsored news start -->
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg" id="outside-sponSlider">
+                        <div class="d-flex justify-content-between mb-4">
+                            <h2 class="spon__title">
+                                <i class="fas fa-volume-down"></i>
+                                Sponsored news
+                            </h2>
+                            <div>
+                                <a href="#" class="text-decoration-underline text-reset">Content by: Bootstrap</a>
+                            </div>
+                        </div>
+                        <div class="sponSlider" id="sponSlider">
+                            <div class="card sponCard">
+                                <div class="position-relative">
+                                    <img src="./assets/images/spon1.jpg" alt="" class="card-img sponCard__img">
+                                    <div class="card-img-overlay d-flex align-items-center">
+                                        <div class="w-100 mt-auto">
+                                            <span class="badge bg-primary"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0 pt-4">
+                                    <h5 class="card-title sponCard__title">
+                                        <a href="">10 tell-tale signs you need to get a new business</a>
+                                    </h5>
+                                    <ul class="nav align-items-center nav__list">
+                                        <li class="nav-item">
+                                            <div class="nav-link d-flex align-items-center ps-0">
+                                                <div class="avatar avatar-sm">
+                                                    <a href="#">
+                                                        <img src="./assets/images/avatar.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <span class="sponCard__name ms-3">
+                                                    by
+                                                    <a href="" class="text-reset">louis</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item sponCard__date">
+                                            <span class="nav-link">Jun 01, 2021</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card sponCard">
+                                <div class="position-relative">
+                                    <img src="./assets/images/spon5.jpg" alt="" class="card-img sponCard__img">
+                                    <div class="card-img-overlay d-flex align-items-center">
+                                        <div class="w-100 mt-auto">
+                                            <span class="badge bg-primary"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0 pt-4">
+                                    <h5 class="card-title sponCard__title">
+                                        <a href="">10 tell-tale signs you need to get a new business</a>
+                                    </h5>
+                                    <ul class="nav align-items-center nav__list">
+                                        <li class="nav-item">
+                                            <div class="nav-link d-flex align-items-center ps-0">
+                                                <div class="avatar avatar-sm">
+                                                    <a href="#">
+                                                        <img src="./assets/images/avatar.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <span class="sponCard__name ms-3">
+                                                    by
+                                                    <a href="" class="text-reset">louis</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item sponCard__date">
+                                            <span class="nav-link">Jun 01, 2021</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card sponCard">
+                                <div class="position-relative">
+                                    <img src="./assets/images/spon4.jpg" alt="" class="card-img sponCard__img">
+                                    <div class="card-img-overlay d-flex align-items-center">
+                                        <div class="w-100 mt-auto">
+                                            <span class="badge bg-primary"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0 pt-4">
+                                    <h5 class="card-title sponCard__title">
+                                        <a href="">10 tell-tale signs you need to get a new business</a>
+                                    </h5>
+                                    <ul class="nav align-items-center nav__list">
+                                        <li class="nav-item">
+                                            <div class="nav-link d-flex align-items-center ps-0">
+                                                <div class="avatar avatar-sm">
+                                                    <a href="#">
+                                                        <img src="./assets/images/avatar3.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <span class="sponCard__name ms-3">
+                                                    by
+                                                    <a href="" class="text-reset">louis</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item sponCard__date">
+                                            <span class="nav-link">Jun 01, 2021</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card sponCard">
+                                <div class="position-relative">
+                                    <img src="./assets/images/spon3.jpg" alt="" class="card-img sponCard__img">
+                                    <div class="card-img-overlay d-flex align-items-center">
+                                        <div class="w-100 mt-auto">
+                                            <span class="badge bg-primary"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0 pt-4">
+                                    <h5 class="card-title sponCard__title">
+                                        <a href="">10 tell-tale signs you need to get a new business</a>
+                                    </h5>
+                                    <ul class="nav align-items-center nav__list">
+                                        <li class="nav-item">
+                                            <div class="nav-link d-flex align-items-center ps-0">
+                                                <div class="avatar avatar-sm">
+                                                    <a href="#">
+                                                        <img src="./assets/images/avater2.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <span class="sponCard__name ms-3">
+                                                    by
+                                                    <a href="" class="text-reset">louis</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item sponCard__date">
+                                            <span class="nav-link">Jun 01, 2021</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card sponCard">
+                                <div class="position-relative">
+                                    <img src="./assets/images/spon2.jpg" alt="" class="card-img sponCard__img">
+                                    <div class="card-img-overlay d-flex align-items-center">
+                                        <div class="w-100 mt-auto">
+                                            <span class="badge bg-primary"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body p-0 pt-4">
+                                    <h5 class="card-title sponCard__title">
+                                        <a href="">10 tell-tale signs you need to get a new business</a>
+                                    </h5>
+                                    <ul class="nav align-items-center nav__list">
+                                        <li class="nav-item">
+                                            <div class="nav-link d-flex align-items-center ps-0">
+                                                <div class="avatar avatar-sm">
+                                                    <a href="#">
+                                                        <img src="./assets/images/avatar.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <span class="sponCard__name ms-3">
+                                                    by
+                                                    <a href="" class="text-reset">louis</a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item sponCard__date">
+                                            <span class="nav-link">Jun 01, 2021</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sponsored news end -->
+    </main>
+    <!-- MAIN SECTION END -->
+    <!-- FOOTER START -->
+    <footer class="footer pt-5 mt-5" id="footer">
+        <div class="container">
+            <div class="row py-5 border-1 border-bottom">
+                <div class="col-md-3">
+                    <img src="./assets/images/logo-light.svg" alt="">
+                </div>
+                <div class="col-md-5">
+                    <p class="footer__titleText">The next-generation blog, news, and magazine theme for you to start sharing your stories today! This Bootstrap 5 based theme is ideal for all types of sites that deliver the news.</p>
+                </div>
+                <div class="col-md-4">
+                    <form action="" class="d-flex justify-content-start justify-content-lg-end align-items-center footer__form">
+                        <input type="text" placeholder="enter your email address " class="footer__form-input mb-2">
+                        <button class="btn btn-primary footer__form-submit mb-2" type="submit">
+                            Subcribe
+                        </button>
+                        <div class="footer__form-info mt-2">By subscribing you agree to our <a href="" class="text-reset text-decoration-unerline">Privacy Policy</a></div>
+                    </form>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h5 class="h2 text-white mb-5">Recent post</h5>
+                    <div class="mb-3 footerCard">
+                        <span class="badge bg-danger mb-3">Business</span>
+                        <h4 class="footerCard__title">
+                            <a href="">Up-coming business bloggers, you need to watch</a>
+                        </h4>
+                        <ul class="nav align-items-center footerCard__list">
+                            <li class="nav-item ">
+                                <span class="nav-link ps-0 footerCard__name">
+                                    by
+                                    <a href="" class="text-reset">denis</a>
+                                </span>
+                            </li>
+                            <li class="nav-item">
+                                <span class="nav-link text-reset">Apr 06, 2021</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-3 footerCard">
+                        <span class="badge bg-primary">Business</span>
+                        <h4 class="footerCard__title">
+                            <a href="">How did we get here? The history of the business told through tweets</a>
+                        </h4>
+                        <ul class="nav align-items-center footerCard__list">
+                            <li class="nav-item">
+                                <span class="nav-link  ps-0 footerCard__name">
+                                    by
+                                    <a href="" class="text-reset">Larry</a>
+                                </span>
+                            </li>
+                            <li class="nav-item">
+                                <span class="nav-link text-reset">Apr 06, 2021</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h5 class="h2 text-white mb-5">Navigation</h5>
+                    <div class="row">
+                        <div class="col-6 ps-0">
+                            <ul class="nav flex-column align-item-start text-capitalize">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Style Guide</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Contact us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Get Theme</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Support</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Privacy Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Newsletter</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 ps-0">
+                            <ul class="nav flex-column align-item-start text-capitalize">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Carrer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">technology</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">startups</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">gadgets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">inpiration</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h5 class="h2 text-white mb-5">Get Regular Updates</h5>
+                    <div class="row">
+                        <div class="col ps-0">
+                            <ul class="nav d-flex flex-column align-items-start text-capitalize">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">
+                                        <i class="fab fa-whatsapp me-1"></i>
+                                        whatsapp
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">
+                                        <i class="fab fa-youtube me-1"></i>
+                                        youtube
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">
+                                        <i class="far fa-bell me-1"></i>
+                                        Website Notifications
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">
+                                        <i class="far fa-envelope me-1"></i>
+                                        letter
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">
+                                        <i class="fas fa-podcast me-1"></i>
+                                        podcasts
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <h5 class="h2 text-white mb-5">Our mobile App</h5>
+                    <div class="row">
+                        <div class="col-12 ps-0 mb-3">
+                            <p class="footer__titleText">Download our App and get the latest Breaking News Alerts and latest headlines and daily articles near you.</p>
+                        </div>
+                        <div class="col-12 ps-0">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./assets/images/app-store.svg" alt="">
+                                </div>
+                                <div class="col">
+                                    <img src="./assets/images/google-play.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h5 class="h2 text-white mb-4">Hot topics<h5>
+                <ul class="nav">
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Covid-19</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Politics</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Entertainment</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Media</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Royalist</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">World</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Half Full</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Scouted</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Travel</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Beast Inside</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Crossword</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Newsletters</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Podcasts</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Auction 2021</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Protests</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">NewsCyber</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Education</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Sports</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Tech And Auto</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Opinion</a>
+                    </li>
+                    <li class="list-inline-item me-4 mb-2">
+                        <a href="" class="footer__link">Share Market</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background: black;">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-6">
+                        <div class="text-center text-md-start my-2" style="color: var(--footer-lColor);">
+                            ©2021 
+                            <a href="" class="footer__link">Webestica</a>
+                            . All rights reserved
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-center text-md-end d-flex align-items-center justify-content-center justify-content-md-end">
+                            <div class="dropup">
+                                <a href="" class="dropdown-toggle footer__link pe-4 me-3" data-bs-toggle="dropdown" id="setLanguage">English Edit</a>
+                                <ul class="dropdown-menu" aria-labelledby="setLanguage">
+                                    <li>
+                                        <a href="" class="dropdown-item">English</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="dropdown-item">VietNam</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="dropdown-item">Korea</a>
+                                    </li>
+                                </ul>
+                            </div>  
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Terms</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Privacy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link footer__link">Cookies</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER START -->
+
+
+    <!-- ================================== -->
+    <!-- js library -->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- tiny slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <!-- custom nav  js -->
+    <script src="./assets/js/main.js"></script>
+    <!-- page js -->
+    <script>
+
+    </script>
+</body>
+
+</html>
