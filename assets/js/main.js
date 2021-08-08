@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
             let link = everyitem.querySelector('a[data-bs-toggle]')
             everyitem.addEventListener('click', () => {
                 window.location = link.href
-                alert(link.href)
             })
         });
 
